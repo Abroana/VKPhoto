@@ -69,6 +69,8 @@ body {
   overflow: hidden;
   position: relative;
   vertical-align: top;
+  -webkit-transition: opacity, 200ms, ease-out;
+  transition: opacity, 200ms, ease-out;
 }
 
 .photo-container__img {
