@@ -1,6 +1,5 @@
 var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
-    syntax = require('postcss-scss'),
     nested = require('postcss-nested'),
     autoprefixer = require('autoprefixer'),
     cssnano = require('cssnano');

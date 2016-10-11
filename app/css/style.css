@@ -6,8 +6,9 @@ body {
 
 .main-container {
   margin: 0 auto;
-  padding: 15px 0 0 0;
-  width: 900px;
+  padding: 15px 30px;
+  max-width: 1200px;
+  min-width: 600px;
 }
 
 .load-form {
@@ -45,17 +46,18 @@ body {
 .main-container__title {
     border-bottom: 1px solid #b0bec5;
     font-size: 30px;
-    padding: 0 0 7px 0;
+    padding: 0 0 7px 15px;
 }
 
 .photo-container {
     padding: 15px 10px;
 
     &__item {
-        display: inline-block;
-        margin-top: 10px;
-        vertical-align: top;
-        width: 20%;
+      box-sizing: border-box;
+      display: inline-block;
+      padding: 10px;
+      vertical-align: top;
+      width: 20%;
     }
 
     &__img {

@@ -43,7 +43,7 @@ var Photo = {
     html += '<div class="photo-container">'
     for (i = 1; i < data.length; i++) {
       html += '<div class="photo-container__item">'
-        html += '<img class="photo-container__img" src="' + data[i].src + '">'
+        html += '<img class="photo-container__img" src="' + data[i].src_xbig + '">'
         html += '<div class="photo-footer">'
           html += '<img class="photo-footer__img" src="../dist/css/img/heart.png">'
           html += '<span class="photo-footer__count">' + data[i].likes.count + '</span>'
